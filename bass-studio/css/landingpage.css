@@ -1,0 +1,29 @@
+.container-texto{
+    width: 100%;
+    max-width: 2560px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+@media(min-width: 768px){
+    .container-texto{
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: large;
+        margin-left: 2%;
+    }
+    #convite{
+        text-decoration: none;
+        text-align: center;
+        font-size: 200%;
+    }
+}

@@ -1,0 +1,53 @@
+.qtd-item{
+    width: auto;
+}
+#qntInput{
+    width: 25px;
+    text-align: center;
+    border: none;
+}
+.desc-produto h2{
+    font-size: 300%;
+}
+.desc-produto{
+    margin-left: 2%;
+}
+.produto{
+    display: flex;
+}
+
+.carousel img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.preco-formatado{
+    font-size: xx-large;
+}.preco-antigo{
+    font-size: x-large
+}
+
+#fotos{
+    display: flex;
+    gap: 15%;
+}
+
+#qualidades{
+    display: flex;
+    justify-content: space-around;
+}
+.qualidade1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.qualidade h3{
+    font-size: x-large;
+}
+.qualidade1 p{
+    font-size: larger;
+}
+.qualidade1{
+    width: 20%;
+}
