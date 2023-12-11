@@ -1,0 +1,61 @@
+/*CONTEUDO*/
+.carousel img{
+    display: block;
+    margin: 0 auto;
+}
+#content-general{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+#content-general img{
+    justify-content: center;
+}
+
+
+#img-ofertas-general{
+    display: flex;
+    gap: 5%;
+}
+.oferta-num{
+    border: 2px solid black;
+    width: auto;
+}
+.oferta-num img{
+    display: block;
+    margin: 0 auto;
+}
+.risco{
+    border: 1px solid black;
+}
+.oferta-num p{
+    text-align: center;
+}
+.oferta-num h3{
+    text-align: center;
+}
+
+/* RESPONSIVIDADE - Celular */
+@media (max-width: 768px) {
+    .carousel img{
+        width: 50%;
+        height: 50%;
+    }
+    
+    #img-ofertas-general{
+        display: flex;
+        flex-direction: column;
+        margin-right: 2%;
+        justify-content: center;
+    }
+    .oferta-num{
+        border: none;
+    }
+    #ofertas-general h1{
+        font-size: 300%;
+    }
+    
+
+}

@@ -1,22 +1,17 @@
+
+/*EIXO
+justify-content: controla o alinhamento ao longo do eixo principal do contêiner.
+align-items: controla o alinhamento ao longo do eixo secundário do contêiner, quando aplicável.
+text-center: é usado para alinhar o texto dentro de um elemento específico no centro horizontal.
+ */
+
 *{
     margin: 0px;
     padding: 0px;
 }
-
-.navbar-brand img{
-    width: 25%;
-    height: 25%;
-}
-
-
-.nav-link img{
-    width: 5%;
-    height: 5%;
-}
-
-#conta{
-    width: 10%;
-    height: 90%;
+a{
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -25,7 +20,34 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
+button:hover{
+    transform: scale(1.1);
+}
 
+/*HEADER*/
+nav{
+    border-radius: 10px;
+}
+
+
+
+/*FOOTER*/
+.imgformas{
+    margin: 5px;
+}
+
+#footerid{
+    flex-shrink: 0;
+}
+footer{
+    width: 100vh;
+    height: auto;
+    margin-right: 20px;
+}
+
+.row{
+    margin-left: 10%;
+}
 #footerid{
     flex-shrink: 0;
 }
@@ -49,17 +71,45 @@ footer img{
     height: 12%;
 }
 #fonecor{
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
 }
 
-
-
-.imgfone{
-    width: 50%;
-    height: 50%;
+.preco-formatado{
+    color: #00C2FF;
 }
-.carrossel{
-    width: 100%;
-    height: 100%;
+.preco-antigo{
+    text-decoration: line-through;
+}
+
+/* RESPONSIVIDADE - Celular */
+@media (max-width: 768px) {
+    *{
+        width: auto;
+        height: auto;
+    }
+
+   
+
+/*
+    #footerid {
+        width: 100vh;
+        height: auto;
+        display: flex;
+
+            
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    #footerid img{
+        width: 3vh;
+        height: 3vh;
+    }
+    #footerid h4{
+        font-size: smaller;
+    }
+    */
 }
